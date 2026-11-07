@@ -1,0 +1,2266 @@
+[
+ {
+  "file": "digital_00.pdf",
+  "kind": "digital_pdf",
+  "invoices": [
+   {
+    "invoice_number": "INV-2025-0001",
+    "invoice_date": "2023-11-14",
+    "supplier_name": "Northwind Traders Ltd",
+    "customer_name": "Stark Manufacturing",
+    "subtotal": 2701.81,
+    "tax": 135.09,
+    "total": 2836.9,
+    "currency": "USD",
+    "line_items": [
+     {
+      "description": "Pallet wrap",
+      "quantity": 6.0,
+      "unit_price": 146.95,
+      "amount": 881.7
+     },
+     {
+      "description": "Steel bracket",
+      "quantity": 9.0,
+      "unit_price": 56.03,
+      "amount": 504.27
+     },
+     {
+      "description": "Printer toner cartridge",
+      "quantity": 2.0,
+      "unit_price": 110.11,
+      "amount": 220.22
+     },
+     {
+      "description": "Network cable 10m",
+      "quantity": 2.0,
+      "unit_price": 62.44,
+      "amount": 124.88
+     },
+     {
+      "description": "Shipping and handling",
+      "quantity": 9.0,
+      "unit_price": 107.86,
+      "amount": 970.74
+     }
+    ],
+    "tax_rate": 0.05,
+    "expected_issues": []
+   }
+  ],
+  "expect_fail": false,
+  "quality": null
+ },
+ {
+  "file": "digital_01.pdf",
+  "kind": "digital_pdf",
+  "invoices": [
+   {
+    "invoice_number": "INV-2025-0002",
+    "invoice_date": "2025-01-19",
+    "supplier_name": "Maple & Oak Furniture Co",
+    "customer_name": "Hooli Systems",
+    "subtotal": 3136.86,
+    "tax": 156.84,
+    "total": 3293.7,
+    "currency": "USD",
+    "line_items": [
+     {
+      "description": "LED panel light",
+      "quantity": 10.0,
+      "unit_price": 79.2,
+      "amount": 792.0
+     },
+     {
+      "description": "Cloud hosting (monthly)",
+      "quantity": 11.0,
+      "unit_price": 47.64,
+      "amount": 524.04
+     },
+     {
+      "description": "Network cable 10m",
+      "quantity": 10.0,
+      "unit_price": 144.09,
+      "amount": 1440.9
+     },
+     {
+      "description": "Printer toner cartridge",
+      "quantity": 4.0,
+      "unit_price": 94.98,
+      "amount": 379.92
+     }
+    ],
+    "tax_rate": 0.05,
+    "expected_issues": []
+   }
+  ],
+  "expect_fail": false,
+  "quality": null
+ },
+ {
+  "file": "digital_02.pdf",
+  "kind": "digital_pdf",
+  "invoices": [
+   {
+    "invoice_number": "INV-2024-0003",
+    "invoice_date": "2023-09-26",
+    "supplier_name": "Zenith Cloud Services LLC",
+    "customer_name": "Umbrella Retail Ltd",
+    "subtotal": 3320.44,
+    "tax": 164.17,
+    "total": 3484.61,
+    "currency": "GBP",
+    "line_items": [
+     {
+      "description": "Packing tape roll",
+      "quantity": 2.0,
+      "unit_price": 144.88,
+      "amount": 289.76
+     },
+     {
+      "description": "Safety gloves",
+      "quantity": 9.0,
+      "unit_price": 125.29,
+      "amount": 1127.61
+     },
+     {
+      "description": "Cloud hosting (monthly)",
+      "quantity": 6.0,
+      "unit_price": 183.17,
+      "amount": 1099.02
+     },
+     {
+      "description": "Pallet wrap",
+      "quantity": 5.0,
+      "unit_price": 153.41,
+      "amount": 767.05
+     }
+    ],
+    "tax_rate": 0.05,
+    "expected_issues": [
+     "SUBTOTAL_MISMATCH"
+    ]
+   }
+  ],
+  "expect_fail": false,
+  "quality": null
+ },
+ {
+  "file": "digital_03.pdf",
+  "kind": "digital_pdf",
+  "invoices": [
+   {
+    "invoice_number": "INV-2025-0004",
+    "invoice_date": "2023-02-21",
+    "supplier_name": "Bluepeak Logistics Inc",
+    "customer_name": "Globex Corporation",
+    "subtotal": 1420.92,
+    "tax": 284.18,
+    "total": 1805.1,
+    "currency": "USD",
+    "line_items": [
+     {
+      "description": "Network cable 10m",
+      "quantity": 6.0,
+      "unit_price": 87.01,
+      "amount": 522.06
+     },
+     {
+      "description": "Shipping and handling",
+      "quantity": 6.0,
+      "unit_price": 149.81,
+      "amount": 898.86
+     }
+    ],
+    "tax_rate": 0.2,
+    "expected_issues": [
+     "TOTAL_MISMATCH"
+    ]
+   }
+  ],
+  "expect_fail": false,
+  "quality": null
+ },
+ {
+  "file": "digital_04.pdf",
+  "kind": "digital_pdf",
+  "invoices": [
+   {
+    "invoice_number": "INV-2024-0005",
+    "invoice_date": null,
+    "supplier_name": "Orion Office Supplies",
+    "customer_name": "Vandelay Imports",
+    "subtotal": 1277.25,
+    "tax": 127.73,
+    "total": 1404.98,
+    "currency": "GBP",
+    "line_items": [
+     {
+      "description": "Maintenance contract",
+      "quantity": 8.0,
+      "unit_price": 90.8,
+      "amount": 726.4
+     },
+     {
+      "description": "LED panel light",
+      "quantity": 10.0,
+      "unit_price": 31.92,
+      "amount": 319.2
+     },
+     {
+      "description": "Consulting hours",
+      "quantity": 1.0,
+      "unit_price": 56.9,
+      "amount": 56.9
+     },
+     {
+      "description": "Steel bracket",
+      "quantity": 5.0,
+      "unit_price": 34.95,
+      "amount": 174.75
+     }
+    ],
+    "tax_rate": 0.1,
+    "expected_issues": [
+     "MISSING_FIELD"
+    ]
+   }
+  ],
+  "expect_fail": false,
+  "quality": null
+ },
+ {
+  "file": "digital_05.pdf",
+  "kind": "digital_pdf",
+  "invoices": [
+   {
+    "invoice_number": "INV-2024-0006",
+    "invoice_date": "2023-03-17",
+    "supplier_name": "Kestrel Components GmbH",
+    "customer_name": "Globex Corporation",
+    "subtotal": 3973.66,
+    "tax": 397.37,
+    "total": 4351.03,
+    "currency": "EUR",
+    "line_items": [
+     {
+      "description": "LED panel light",
+      "quantity": 12.0,
+      "unit_price": 105.58,
+      "amount": 1266.96
+     },
+     {
+      "description": "Network cable 10m",
+      "quantity": 6.0,
+      "unit_price": 171.63,
+      "amount": 1029.78
+     },
+     {
+      "description": "Packing tape roll",
+      "quantity": 7.0,
+      "unit_price": 239.56,
+      "amount": 1676.92
+     }
+    ],
+    "tax_rate": 0.1,
+    "expected_issues": [
+     "TOTAL_MISMATCH"
+    ]
+   }
+  ],
+  "expect_fail": false,
+  "quality": null
+ },
+ {
+  "file": "digital_06.pdf",
+  "kind": "digital_pdf",
+  "invoices": [
+   {
+    "invoice_number": null,
+    "invoice_date": "2024-11-25",
+    "supplier_name": "Maple & Oak Furniture Co",
+    "customer_name": "Acme Industrial Group",
+    "subtotal": 4324.93,
+    "tax": 216.25,
+    "total": 4541.18,
+    "currency": "USD",
+    "line_items": [
+     {
+      "description": "Packing tape roll",
+      "quantity": 9.0,
+      "unit_price": 94.21,
+      "amount": 847.89
+     },
+     {
+      "description": "Steel bracket",
+      "quantity": 10.0,
+      "unit_price": 81.7,
+      "amount": 817.0
+     },
+     {
+      "description": "Cloud hosting (monthly)",
+      "quantity": 3.0,
+      "unit_price": 173.55,
+      "amount": 520.65
+     },
+     {
+      "description": "LED panel light",
+      "quantity": 9.0,
+      "unit_price": 237.71,
+      "amount": 2139.39
+     }
+    ],
+    "tax_rate": 0.05,
+    "expected_issues": [
+     "MISSING_FIELD"
+    ]
+   }
+  ],
+  "expect_fail": false,
+  "quality": null
+ },
+ {
+  "file": "digital_07.pdf",
+  "kind": "digital_pdf",
+  "invoices": [
+   {
+    "invoice_number": "INV-2024-0008",
+    "invoice_date": "2023-10-25",
+    "supplier_name": "Harbor Light Foods",
+    "customer_name": "Hooli Systems",
+    "subtotal": 1573.43,
+    "tax": 78.67,
+    "total": 1652.1,
+    "currency": "GBP",
+    "line_items": [
+     {
+      "description": "Steel bracket",
+      "quantity": 3.0,
+      "unit_price": 30.15,
+      "amount": 90.45
+     },
+     {
+      "description": "Safety gloves",
+      "quantity": 10.0,
+      "unit_price": 15.99,
+      "amount": 159.9
+     },
+     {
+      "description": "Printer toner cartridge",
+      "quantity": 1.0,
+      "unit_price": 143.0,
+      "amount": 143.0
+     },
+     {
+      "description": "Pallet wrap",
+      "quantity": 9.0,
+      "unit_price": 28.06,
+      "amount": 252.54
+     },
+     {
+      "description": "Office chair",
+      "quantity": 6.0,
+      "unit_price": 154.59,
+      "amount": 927.54
+     }
+    ],
+    "tax_rate": 0.05,
+    "expected_issues": []
+   }
+  ],
+  "expect_fail": false,
+  "quality": null
+ },
+ {
+  "file": "digital_multi_00.pdf",
+  "kind": "digital_pdf_multi",
+  "invoices": [
+   {
+    "invoice_number": null,
+    "invoice_date": "2025-06-17",
+    "supplier_name": "Harbor Light Foods",
+    "customer_name": "Initech Holdings",
+    "subtotal": 3893.61,
+    "tax": 389.36,
+    "total": 4282.97,
+    "currency": "EUR",
+    "line_items": [
+     {
+      "description": "Printer toner cartridge",
+      "quantity": 8.0,
+      "unit_price": 80.03,
+      "amount": 640.24
+     },
+     {
+      "description": "Maintenance contract",
+      "quantity": 3.0,
+      "unit_price": 28.24,
+      "amount": 84.72
+     },
+     {
+      "description": "Office chair",
+      "quantity": 6.0,
+      "unit_price": 185.87,
+      "amount": 1115.22
+     },
+     {
+      "description": "Shipping and handling",
+      "quantity": 8.0,
+      "unit_price": 207.73,
+      "amount": 1661.84
+     },
+     {
+      "description": "Network cable 10m",
+      "quantity": 3.0,
+      "unit_price": 130.53,
+      "amount": 391.59
+     }
+    ],
+    "tax_rate": 0.1,
+    "expected_issues": [
+     "MISSING_FIELD"
+    ]
+   },
+   {
+    "invoice_number": "INV-2024-0010",
+    "invoice_date": "2023-07-20",
+    "supplier_name": "Delta Print Works Ltd",
+    "customer_name": "Hooli Systems",
+    "subtotal": 4754.47,
+    "tax": 475.45,
+    "total": 5229.92,
+    "currency": "EUR",
+    "line_items": [
+     {
+      "description": "Consulting hours",
+      "quantity": 9.0,
+      "unit_price": 195.43,
+      "amount": 1758.87
+     },
+     {
+      "description": "Safety gloves",
+      "quantity": 6.0,
+      "unit_price": 160.2,
+      "amount": 961.2
+     },
+     {
+      "description": "Network cable 10m",
+      "quantity": 10.0,
+      "unit_price": 203.44,
+      "amount": 2034.4
+     }
+    ],
+    "tax_rate": 0.1,
+    "expected_issues": []
+   },
+   {
+    "invoice_number": "INV-2024-0011",
+    "invoice_date": "2024-04-28",
+    "supplier_name": "Delta Print Works Ltd",
+    "customer_name": "Hooli Systems",
+    "subtotal": 4841.76,
+    "tax": 484.18,
+    "total": 5325.94,
+    "currency": "USD",
+    "line_items": [
+     {
+      "description": "Office chair",
+      "quantity": 8.0,
+      "unit_price": 202.72,
+      "amount": 1621.76
+     },
+     {
+      "description": "Packing tape roll",
+      "quantity": 12.0,
+      "unit_price": 247.05,
+      "amount": 2964.6
+     },
+     {
+      "description": "Safety gloves",
+      "quantity": 6.0,
+      "unit_price": 22.89,
+      "amount": 137.34
+     },
+     {
+      "description": "Consulting hours",
+      "quantity": 2.0,
+      "unit_price": 59.03,
+      "amount": 118.06
+     }
+    ],
+    "tax_rate": 0.1,
+    "expected_issues": []
+   },
+   {
+    "invoice_number": "INV-2025-0012",
+    "invoice_date": null,
+    "supplier_name": "Maple & Oak Furniture Co",
+    "customer_name": "Initech Holdings",
+    "subtotal": 3166.16,
+    "tax": 474.92,
+    "total": 3641.08,
+    "currency": "USD",
+    "line_items": [
+     {
+      "description": "LED panel light",
+      "quantity": 8.0,
+      "unit_price": 222.59,
+      "amount": 1780.72
+     },
+     {
+      "description": "Safety gloves",
+      "quantity": 7.0,
+      "unit_price": 197.92,
+      "amount": 1385.44
+     }
+    ],
+    "tax_rate": 0.15,
+    "expected_issues": [
+     "MISSING_FIELD"
+    ]
+   }
+  ],
+  "expect_fail": false,
+  "quality": null
+ },
+ {
+  "file": "digital_multi_01.pdf",
+  "kind": "digital_pdf_multi",
+  "invoices": [
+   {
+    "invoice_number": "INV-2024-0013",
+    "invoice_date": "2023-09-17",
+    "supplier_name": "Northwind Traders Ltd",
+    "customer_name": "Initech Holdings",
+    "subtotal": 4531.26,
+    "tax": 679.69,
+    "total": 5210.95,
+    "currency": "USD",
+    "line_items": [
+     {
+      "description": "Steel bracket",
+      "quantity": 8.0,
+      "unit_price": 202.21,
+      "amount": 1617.68
+     },
+     {
+      "description": "Cloud hosting (monthly)",
+      "quantity": 3.0,
+      "unit_price": 154.06,
+      "amount": 462.18
+     },
+     {
+      "description": "Shipping and handling",
+      "quantity": 10.0,
+      "unit_price": 245.14,
+      "amount": 2451.4
+     }
+    ],
+    "tax_rate": 0.15,
+    "expected_issues": []
+   },
+   {
+    "invoice_number": "INV-2024-0014",
+    "invoice_date": "2025-10-26",
+    "supplier_name": "Orion Office Supplies",
+    "customer_name": "Globex Corporation",
+    "subtotal": 3575.33,
+    "tax": 715.07,
+    "total": 4290.4,
+    "currency": "USD",
+    "line_items": [
+     {
+      "description": "Safety gloves",
+      "quantity": 5.0,
+      "unit_price": 126.79,
+      "amount": 642.95
+     },
+     {
+      "description": "Maintenance contract",
+      "quantity": 10.0,
+      "unit_price": 83.52,
+      "amount": 835.2
+     },
+     {
+      "description": "Steel bracket",
+      "quantity": 9.0,
+      "unit_price": 106.5,
+      "amount": 958.5
+     },
+     {
+      "description": "Packing tape roll",
+      "quantity": 3.0,
+      "unit_price": 18.04,
+      "amount": 54.12
+     },
+     {
+      "description": "Pallet wrap",
+      "quantity": 12.0,
+      "unit_price": 90.38,
+      "amount": 1084.56
+     }
+    ],
+    "tax_rate": 0.2,
+    "expected_issues": [
+     "LINE_ITEM_MISMATCH"
+    ]
+   },
+   {
+    "invoice_number": "INV-2024-0015",
+    "invoice_date": "2024-11-28",
+    "supplier_name": "Northwind Traders Ltd",
+    "customer_name": "Stark Manufacturing",
+    "subtotal": 762.49,
+    "tax": 37.62,
+    "total": 800.11,
+    "currency": "USD",
+    "line_items": [
+     {
+      "description": "Cloud hosting (monthly)",
+      "quantity": 3.0,
+      "unit_price": 119.95,
+      "amount": 359.85
+     },
+     {
+      "description": "Maintenance contract",
+      "quantity": 12.0,
+      "unit_price": 32.72,
+      "amount": 392.64
+     }
+    ],
+    "tax_rate": 0.05,
+    "expected_issues": [
+     "SUBTOTAL_MISMATCH"
+    ]
+   },
+   {
+    "invoice_number": "INV-2025-0016",
+    "invoice_date": "2025-05-27",
+    "supplier_name": "Kestrel Components GmbH",
+    "customer_name": "Wayne Enterprises",
+    "subtotal": 313.88,
+    "tax": 31.39,
+    "total": 345.27,
+    "currency": "USD",
+    "line_items": [
+     {
+      "description": "Network cable 10m",
+      "quantity": 9.0,
+      "unit_price": 9.88,
+      "amount": 88.92
+     },
+     {
+      "description": "Office chair",
+      "quantity": 2.0,
+      "unit_price": 112.48,
+      "amount": 224.96
+     }
+    ],
+    "tax_rate": 0.1,
+    "expected_issues": []
+   }
+  ],
+  "expect_fail": false,
+  "quality": null
+ },
+ {
+  "file": "digital_multi_02.pdf",
+  "kind": "digital_pdf_multi",
+  "invoices": [
+   {
+    "invoice_number": "INV-2025-0017",
+    "invoice_date": "2023-05-17",
+    "supplier_name": "Kestrel Components GmbH",
+    "customer_name": "Initech Holdings",
+    "subtotal": 2397.48,
+    "tax": 359.62,
+    "total": 2757.1,
+    "currency": "USD",
+    "line_items": [
+     {
+      "description": "Cloud hosting (monthly)",
+      "quantity": 6.0,
+      "unit_price": 20.92,
+      "amount": 134.52
+     },
+     {
+      "description": "LED panel light",
+      "quantity": 4.0,
+      "unit_price": 108.8,
+      "amount": 435.2
+     },
+     {
+      "description": "Printer toner cartridge",
+      "quantity": 4.0,
+      "unit_price": 168.36,
+      "amount": 673.44
+     },
+     {
+      "description": "Pallet wrap",
+      "quantity": 2.0,
+      "unit_price": 224.57,
+      "amount": 449.14
+     },
+     {
+      "description": "Office chair",
+      "quantity": 3.0,
+      "unit_price": 235.06,
+      "amount": 705.18
+     }
+    ],
+    "tax_rate": 0.15,
+    "expected_issues": [
+     "LINE_ITEM_MISMATCH"
+    ]
+   },
+   {
+    "invoice_number": "INV-2024-0018",
+    "invoice_date": "2023-12-24",
+    "supplier_name": "Zenith Cloud Services LLC",
+    "customer_name": "Vandelay Imports",
+    "subtotal": 2599.19,
+    "tax": 389.88,
+    "total": 2969.07,
+    "currency": "GBP",
+    "line_items": [
+     {
+      "description": "Pallet wrap",
+      "quantity": 12.0,
+      "unit_price": 109.59,
+      "amount": 1315.08
+     },
+     {
+      "description": "Safety gloves",
+      "quantity": 9.0,
+      "unit_price": 102.74,
+      "amount": 924.66
+     },
+     {
+      "description": "Cloud hosting (monthly)",
+      "quantity": 7.0,
+      "unit_price": 51.35,
+      "amount": 359.45
+     }
+    ],
+    "tax_rate": 0.15,
+    "expected_issues": [
+     "TOTAL_MISMATCH"
+    ]
+   },
+   {
+    "invoice_number": "INV-2025-0019",
+    "invoice_date": "2024-03-26",
+    "supplier_name": "Maple & Oak Furniture Co",
+    "customer_name": "Umbrella Retail Ltd",
+    "subtotal": 1145.2,
+    "tax": 114.52,
+    "total": 1259.72,
+    "currency": "GBP",
+    "line_items": [
+     {
+      "description": "Network cable 10m",
+      "quantity": 2.0,
+      "unit_price": 30.87,
+      "amount": 61.74
+     },
+     {
+      "description": "Shipping and handling",
+      "quantity": 4.0,
+      "unit_price": 243.01,
+      "amount": 972.04
+     },
+     {
+      "description": "Packing tape roll",
+      "quantity": 2.0,
+      "unit_price": 23.76,
+      "amount": 47.52
+     },
+     {
+      "description": "Maintenance contract",
+      "quantity": 5.0,
+      "unit_price": 12.78,
+      "amount": 63.9
+     }
+    ],
+    "tax_rate": 0.1,
+    "expected_issues": []
+   },
+   {
+    "invoice_number": "INV-2025-0020",
+    "invoice_date": "2023-05-16",
+    "supplier_name": "Northwind Traders Ltd",
+    "customer_name": "Hooli Systems",
+    "subtotal": 3143.91,
+    "tax": 314.39,
+    "total": 3458.3,
+    "currency": "GBP",
+    "line_items": [
+     {
+      "description": "Printer toner cartridge",
+      "quantity": 7.0,
+      "unit_price": 224.14,
+      "amount": 1577.98
+     },
+     {
+      "description": "Packing tape roll",
+      "quantity": 5.0,
+      "unit_price": 234.77,
+      "amount": 1173.85
+     },
+     {
+      "description": "Steel bracket",
+      "quantity": 11.0,
+      "unit_price": 24.88,
+      "amount": 273.68
+     },
+     {
+      "description": "Cloud hosting (monthly)",
+      "quantity": 5.0,
+      "unit_price": 23.68,
+      "amount": 118.4
+     }
+    ],
+    "tax_rate": 0.1,
+    "expected_issues": [
+     "LINE_ITEM_MISMATCH"
+    ]
+   }
+  ],
+  "expect_fail": false,
+  "quality": null
+ },
+ {
+  "file": "scan_clean_00.png",
+  "kind": "scan_png",
+  "invoices": [
+   {
+    "invoice_number": "INV-2025-0021",
+    "invoice_date": "2025-04-22",
+    "supplier_name": "Orion Office Supplies",
+    "customer_name": "Wayne Enterprises",
+    "subtotal": 2246.72,
+    "tax": 337.01,
+    "total": 2583.73,
+    "currency": "GBP",
+    "line_items": [
+     {
+      "description": "Shipping and handling",
+      "quantity": 12.0,
+      "unit_price": 61.89,
+      "amount": 751.68
+     },
+     {
+      "description": "Cloud hosting (monthly)",
+      "quantity": 2.0,
+      "unit_price": 242.4,
+      "amount": 484.8
+     },
+     {
+      "description": "Steel bracket",
+      "quantity": 5.0,
+      "unit_price": 15.44,
+      "amount": 77.2
+     },
+     {
+      "description": "Network cable 10m",
+      "quantity": 4.0,
+      "unit_price": 233.26,
+      "amount": 933.04
+     }
+    ],
+    "tax_rate": 0.15,
+    "expected_issues": [
+     "LINE_ITEM_MISMATCH"
+    ]
+   }
+  ],
+  "expect_fail": false,
+  "quality": "clean"
+ },
+ {
+  "file": "scan_clean_01.pdf",
+  "kind": "scan_pdf",
+  "invoices": [
+   {
+    "invoice_number": "INV-2024-0022",
+    "invoice_date": "2025-07-22",
+    "supplier_name": "Kestrel Components GmbH",
+    "customer_name": "Hooli Systems",
+    "subtotal": 4724.9,
+    "tax": 944.98,
+    "total": 5669.88,
+    "currency": "USD",
+    "line_items": [
+     {
+      "description": "Steel bracket",
+      "quantity": 9.0,
+      "unit_price": 244.58,
+      "amount": 2201.22
+     },
+     {
+      "description": "Maintenance contract",
+      "quantity": 9.0,
+      "unit_price": 120.27,
+      "amount": 1082.43
+     },
+     {
+      "description": "Pallet wrap",
+      "quantity": 8.0,
+      "unit_price": 29.25,
+      "amount": 234.0
+     },
+     {
+      "description": "Network cable 10m",
+      "quantity": 11.0,
+      "unit_price": 109.75,
+      "amount": 1207.25
+     }
+    ],
+    "tax_rate": 0.2,
+    "expected_issues": []
+   }
+  ],
+  "expect_fail": false,
+  "quality": "clean"
+ },
+ {
+  "file": "scan_clean_02.jpg",
+  "kind": "scan_jpg",
+  "invoices": [
+   {
+    "invoice_number": "INV-2025-0023",
+    "invoice_date": "2025-05-14",
+    "supplier_name": "Orion Office Supplies",
+    "customer_name": "Umbrella Retail Ltd",
+    "subtotal": 6813.98,
+    "tax": 681.4,
+    "total": 7495.38,
+    "currency": "USD",
+    "line_items": [
+     {
+      "description": "Consulting hours",
+      "quantity": 11.0,
+      "unit_price": 186.0,
+      "amount": 2046.0
+     },
+     {
+      "description": "Steel bracket",
+      "quantity": 5.0,
+      "unit_price": 109.39,
+      "amount": 546.95
+     },
+     {
+      "description": "Cloud hosting (monthly)",
+      "quantity": 1.0,
+      "unit_price": 23.87,
+      "amount": 23.87
+     },
+     {
+      "description": "Pallet wrap",
+      "quantity": 7.0,
+      "unit_price": 218.02,
+      "amount": 1526.14
+     },
+     {
+      "description": "Printer toner cartridge",
+      "quantity": 11.0,
+      "unit_price": 242.82,
+      "amount": 2671.02
+     }
+    ],
+    "tax_rate": 0.1,
+    "expected_issues": []
+   }
+  ],
+  "expect_fail": false,
+  "quality": "clean"
+ },
+ {
+  "file": "scan_noisy_03.png",
+  "kind": "scan_png",
+  "invoices": [
+   {
+    "invoice_number": "INV-2024-0024",
+    "invoice_date": "2024-04-24",
+    "supplier_name": "Northwind Traders Ltd",
+    "customer_name": "Hooli Systems",
+    "subtotal": 2205.63,
+    "tax": 110.28,
+    "total": 2315.91,
+    "currency": "GBP",
+    "line_items": [
+     {
+      "description": "Packing tape roll",
+      "quantity": 6.0,
+      "unit_price": 243.24,
+      "amount": 1459.44
+     },
+     {
+      "description": "Consulting hours",
+      "quantity": 9.0,
+      "unit_price": 82.91,
+      "amount": 746.19
+     }
+    ],
+    "tax_rate": 0.05,
+    "expected_issues": []
+   }
+  ],
+  "expect_fail": false,
+  "quality": "noisy"
+ },
+ {
+  "file": "scan_noisy_04.tiff",
+  "kind": "scan_tiff",
+  "invoices": [
+   {
+    "invoice_number": "INV-2025-0025",
+    "invoice_date": "2025-12-25",
+    "supplier_name": "Delta Print Works Ltd",
+    "customer_name": "Umbrella Retail Ltd",
+    "subtotal": 1088.97,
+    "tax": 108.9,
+    "total": 1297.87,
+    "currency": "USD",
+    "line_items": [
+     {
+      "description": "Packing tape roll",
+      "quantity": 2.0,
+      "unit_price": 68.25,
+      "amount": 136.5
+     },
+     {
+      "description": "Network cable 10m",
+      "quantity": 2.0,
+      "unit_price": 38.53,
+      "amount": 77.06
+     },
+     {
+      "description": "Safety gloves",
+      "quantity": 10.0,
+      "unit_price": 13.29,
+      "amount": 132.9
+     },
+     {
+      "description": "Shipping and handling",
+      "quantity": 1.0,
+      "unit_price": 77.01,
+      "amount": 77.01
+     },
+     {
+      "description": "Steel bracket",
+      "quantity": 11.0,
+      "unit_price": 60.5,
+      "amount": 665.5
+     }
+    ],
+    "tax_rate": 0.1,
+    "expected_issues": [
+     "TOTAL_MISMATCH"
+    ]
+   }
+  ],
+  "expect_fail": false,
+  "quality": "noisy"
+ },
+ {
+  "file": "scan_noisy_05.pdf",
+  "kind": "scan_pdf",
+  "invoices": [
+   {
+    "invoice_number": null,
+    "invoice_date": "2025-09-13",
+    "supplier_name": "Bluepeak Logistics Inc",
+    "customer_name": "Globex Corporation",
+    "subtotal": 3642.66,
+    "tax": 364.27,
+    "total": 4006.93,
+    "currency": "USD",
+    "line_items": [
+     {
+      "description": "Maintenance contract",
+      "quantity": 11.0,
+      "unit_price": 109.02,
+      "amount": 1199.22
+     },
+     {
+      "description": "Network cable 10m",
+      "quantity": 12.0,
+      "unit_price": 203.62,
+      "amount": 2443.44
+     }
+    ],
+    "tax_rate": 0.1,
+    "expected_issues": [
+     "MISSING_FIELD"
+    ]
+   }
+  ],
+  "expect_fail": false,
+  "quality": "noisy"
+ },
+ {
+  "file": "scan_noisy_06.jpg",
+  "kind": "scan_jpg",
+  "invoices": [
+   {
+    "invoice_number": "INV-2024-0027",
+    "invoice_date": "2025-09-15",
+    "supplier_name": "Delta Print Works Ltd",
+    "customer_name": "Wayne Enterprises",
+    "subtotal": 2246.34,
+    "tax": 112.32,
+    "total": 2358.66,
+    "currency": "USD",
+    "line_items": [
+     {
+      "description": "Printer toner cartridge",
+      "quantity": 1.0,
+      "unit_price": 158.06,
+      "amount": 158.06
+     },
+     {
+      "description": "LED panel light",
+      "quantity": 11.0,
+      "unit_price": 134.27,
+      "amount": 1476.97
+     },
+     {
+      "description": "Office chair",
+      "quantity": 4.0,
+      "unit_price": 123.86,
+      "amount": 495.44
+     },
+     {
+      "description": "Network cable 10m",
+      "quantity": 1.0,
+      "unit_price": 115.87,
+      "amount": 115.87
+     }
+    ],
+    "tax_rate": 0.05,
+    "expected_issues": []
+   }
+  ],
+  "expect_fail": false,
+  "quality": "noisy"
+ },
+ {
+  "file": "scan_poor_07.png",
+  "kind": "scan_png",
+  "invoices": [
+   {
+    "invoice_number": "INV-2024-0028",
+    "invoice_date": "2023-10-19",
+    "supplier_name": "Orion Office Supplies",
+    "customer_name": "Hooli Systems",
+    "subtotal": 3116.09,
+    "tax": 467.41,
+    "total": 3583.5,
+    "currency": "EUR",
+    "line_items": [
+     {
+      "description": "Maintenance contract",
+      "quantity": 12.0,
+      "unit_price": 163.53,
+      "amount": 1962.36
+     },
+     {
+      "description": "Safety gloves",
+      "quantity": 8.0,
+      "unit_price": 125.01,
+      "amount": 1000.08
+     },
+     {
+      "description": "Pallet wrap",
+      "quantity": 7.0,
+      "unit_price": 21.95,
+      "amount": 153.65
+     }
+    ],
+    "tax_rate": 0.15,
+    "expected_issues": []
+   }
+  ],
+  "expect_fail": false,
+  "quality": "poor"
+ },
+ {
+  "file": "scan_poor_08.jpg",
+  "kind": "scan_jpg",
+  "invoices": [
+   {
+    "invoice_number": "INV-2025-0029",
+    "invoice_date": "2025-09-22",
+    "supplier_name": "Delta Print Works Ltd",
+    "customer_name": "Vandelay Imports",
+    "subtotal": 1538.1,
+    "tax": 230.71,
+    "total": 1768.81,
+    "currency": "EUR",
+    "line_items": [
+     {
+      "description": "Steel bracket",
+      "quantity": 8.0,
+      "unit_price": 69.39,
+      "amount": 555.12
+     },
+     {
+      "description": "Office chair",
+      "quantity": 11.0,
+      "unit_price": 27.58,
+      "amount": 303.38
+     },
+     {
+      "description": "Maintenance contract",
+      "quantity": 4.0,
+      "unit_price": 169.9,
+      "amount": 679.6
+     }
+    ],
+    "tax_rate": 0.15,
+    "expected_issues": []
+   }
+  ],
+  "expect_fail": false,
+  "quality": "poor"
+ },
+ {
+  "file": "scan_poor_09.pdf",
+  "kind": "scan_pdf",
+  "invoices": [
+   {
+    "invoice_number": "INV-2024-0030",
+    "invoice_date": "2023-10-15",
+    "supplier_name": "Harbor Light Foods",
+    "customer_name": "Hooli Systems",
+    "subtotal": 4726.09,
+    "tax": 472.61,
+    "total": 5198.7,
+    "currency": "USD",
+    "line_items": [
+     {
+      "description": "Printer toner cartridge",
+      "quantity": 8.0,
+      "unit_price": 21.89,
+      "amount": 175.12
+     },
+     {
+      "description": "Office chair",
+      "quantity": 9.0,
+      "unit_price": 242.12,
+      "amount": 2179.08
+     },
+     {
+      "description": "Steel bracket",
+      "quantity": 8.0,
+      "unit_price": 248.51,
+      "amount": 1988.08
+     },
+     {
+      "description": "Packing tape roll",
+      "quantity": 7.0,
+      "unit_price": 54.83,
+      "amount": 383.81
+     }
+    ],
+    "tax_rate": 0.1,
+    "expected_issues": []
+   }
+  ],
+  "expect_fail": false,
+  "quality": "poor"
+ },
+ {
+  "file": "ledger_00.xlsx",
+  "kind": "ledger_xlsx",
+  "invoices": [
+   {
+    "invoice_number": "INV-2025-0031",
+    "invoice_date": "2023-08-27",
+    "supplier_name": "Harbor Light Foods",
+    "customer_name": "Umbrella Retail Ltd",
+    "subtotal": 1306.64,
+    "tax": 130.66,
+    "total": 1437.3,
+    "currency": "EUR",
+    "line_items": [
+     {
+      "description": "Maintenance contract",
+      "quantity": 4.0,
+      "unit_price": 125.98,
+      "amount": 503.92
+     },
+     {
+      "description": "Consulting hours",
+      "quantity": 8.0,
+      "unit_price": 100.34,
+      "amount": 802.72
+     }
+    ],
+    "tax_rate": 0.1,
+    "expected_issues": []
+   },
+   {
+    "invoice_number": "INV-2025-0032",
+    "invoice_date": "2025-02-24",
+    "supplier_name": "Harbor Light Foods",
+    "customer_name": "Globex Corporation",
+    "subtotal": 3457.72,
+    "tax": 691.54,
+    "total": 4249.26,
+    "currency": "EUR",
+    "line_items": [
+     {
+      "description": "Consulting hours",
+      "quantity": 6.0,
+      "unit_price": 210.26,
+      "amount": 1261.56
+     },
+     {
+      "description": "Printer toner cartridge",
+      "quantity": 2.0,
+      "unit_price": 235.15,
+      "amount": 470.3
+     },
+     {
+      "description": "Maintenance contract",
+      "quantity": 4.0,
+      "unit_price": 179.12,
+      "amount": 716.48
+     },
+     {
+      "description": "Steel bracket",
+      "quantity": 12.0,
+      "unit_price": 74.59,
+      "amount": 895.08
+     },
+     {
+      "description": "Shipping and handling",
+      "quantity": 6.0,
+      "unit_price": 19.05,
+      "amount": 114.3
+     }
+    ],
+    "tax_rate": 0.2,
+    "expected_issues": [
+     "TOTAL_MISMATCH"
+    ]
+   },
+   {
+    "invoice_number": "INV-2025-0033",
+    "invoice_date": "2025-02-14",
+    "supplier_name": "Delta Print Works Ltd",
+    "customer_name": "Umbrella Retail Ltd",
+    "subtotal": 4350.17,
+    "tax": 435.02,
+    "total": 4785.19,
+    "currency": "USD",
+    "line_items": [
+     {
+      "description": "Pallet wrap",
+      "quantity": 7.0,
+      "unit_price": 129.21,
+      "amount": 904.47
+     },
+     {
+      "description": "Cloud hosting (monthly)",
+      "quantity": 4.0,
+      "unit_price": 193.98,
+      "amount": 775.92
+     },
+     {
+      "description": "Safety gloves",
+      "quantity": 7.0,
+      "unit_price": 221.41,
+      "amount": 1549.87
+     },
+     {
+      "description": "Packing tape roll",
+      "quantity": 11.0,
+      "unit_price": 101.81,
+      "amount": 1119.91
+     }
+    ],
+    "tax_rate": 0.1,
+    "expected_issues": []
+   },
+   {
+    "invoice_number": "INV-2025-0034",
+    "invoice_date": "2025-12-21",
+    "supplier_name": "Kestrel Components GmbH",
+    "customer_name": "Wayne Enterprises",
+    "subtotal": 794.43,
+    "tax": 119.16,
+    "total": 913.59,
+    "currency": "GBP",
+    "line_items": [
+     {
+      "description": "Network cable 10m",
+      "quantity": 3.0,
+      "unit_price": 119.63,
+      "amount": 358.89
+     },
+     {
+      "description": "Cloud hosting (monthly)",
+      "quantity": 6.0,
+      "unit_price": 72.59,
+      "amount": 435.54
+     }
+    ],
+    "tax_rate": 0.15,
+    "expected_issues": []
+   },
+   {
+    "invoice_number": null,
+    "invoice_date": "2025-04-27",
+    "supplier_name": "Delta Print Works Ltd",
+    "customer_name": "Acme Industrial Group",
+    "subtotal": 2105.64,
+    "tax": 421.13,
+    "total": 2526.77,
+    "currency": "GBP",
+    "line_items": [
+     {
+      "description": "Cloud hosting (monthly)",
+      "quantity": 3.0,
+      "unit_price": 21.57,
+      "amount": 64.71
+     },
+     {
+      "description": "Pallet wrap",
+      "quantity": 9.0,
+      "unit_price": 226.77,
+      "amount": 2040.93
+     }
+    ],
+    "tax_rate": 0.2,
+    "expected_issues": [
+     "MISSING_FIELD"
+    ]
+   },
+   {
+    "invoice_number": "INV-2025-0036",
+    "invoice_date": "2025-07-25",
+    "supplier_name": "Kestrel Components GmbH",
+    "customer_name": "Acme Industrial Group",
+    "subtotal": 1134.68,
+    "tax": 56.73,
+    "total": 1191.41,
+    "currency": "USD",
+    "line_items": [
+     {
+      "description": "Printer toner cartridge",
+      "quantity": 9.0,
+      "unit_price": 25.5,
+      "amount": 229.5
+     },
+     {
+      "description": "Cloud hosting (monthly)",
+      "quantity": 4.0,
+      "unit_price": 93.97,
+      "amount": 375.88
+     },
+     {
+      "description": "Consulting hours",
+      "quantity": 10.0,
+      "unit_price": 52.93,
+      "amount": 529.3
+     }
+    ],
+    "tax_rate": 0.05,
+    "expected_issues": []
+   }
+  ],
+  "expect_fail": false,
+  "quality": null
+ },
+ {
+  "file": "ledger_01.xlsx",
+  "kind": "ledger_xlsx",
+  "invoices": [
+   {
+    "invoice_number": "INV-2025-0037",
+    "invoice_date": "2023-05-20",
+    "supplier_name": "Maple & Oak Furniture Co",
+    "customer_name": "Vandelay Imports",
+    "subtotal": 2938.09,
+    "tax": 293.81,
+    "total": 3231.9,
+    "currency": "EUR",
+    "line_items": [
+     {
+      "description": "Office chair",
+      "quantity": 10.0,
+      "unit_price": 242.02,
+      "amount": 2420.2
+     },
+     {
+      "description": "Packing tape roll",
+      "quantity": 3.0,
+      "unit_price": 172.63,
+      "amount": 517.89
+     }
+    ],
+    "tax_rate": 0.1,
+    "expected_issues": []
+   },
+   {
+    "invoice_number": "INV-2025-0038",
+    "invoice_date": "2023-02-25",
+    "supplier_name": "Delta Print Works Ltd",
+    "customer_name": "Stark Manufacturing",
+    "subtotal": 3185.11,
+    "tax": 637.02,
+    "total": 3827.13,
+    "currency": "EUR",
+    "line_items": [
+     {
+      "description": "Cloud hosting (monthly)",
+      "quantity": 7.0,
+      "unit_price": 178.25,
+      "amount": 1247.75
+     },
+     {
+      "description": "Steel bracket",
+      "quantity": 8.0,
+      "unit_price": 242.17,
+      "amount": 1937.36
+     }
+    ],
+    "tax_rate": 0.2,
+    "expected_issues": [
+     "TOTAL_MISMATCH"
+    ]
+   },
+   {
+    "invoice_number": "INV-2025-0039",
+    "invoice_date": "2023-10-14",
+    "supplier_name": "Orion Office Supplies",
+    "customer_name": "Wayne Enterprises",
+    "subtotal": 2309.14,
+    "tax": 230.91,
+    "total": 2540.05,
+    "currency": "USD",
+    "line_items": [
+     {
+      "description": "Network cable 10m",
+      "quantity": 12.0,
+      "unit_price": 176.15,
+      "amount": 2113.8
+     },
+     {
+      "description": "Pallet wrap",
+      "quantity": 8.0,
+      "unit_price": 24.0,
+      "amount": 192.0
+     },
+     {
+      "description": "Printer toner cartridge",
+      "quantity": 1.0,
+      "unit_price": 3.34,
+      "amount": 3.34
+     }
+    ],
+    "tax_rate": 0.1,
+    "expected_issues": []
+   },
+   {
+    "invoice_number": "INV-2024-0040",
+    "invoice_date": "2023-10-13",
+    "supplier_name": "Harbor Light Foods",
+    "customer_name": "Vandelay Imports",
+    "subtotal": 1175.2,
+    "tax": 176.28,
+    "total": 1351.48,
+    "currency": "GBP",
+    "line_items": [
+     {
+      "description": "Printer toner cartridge",
+      "quantity": 5.0,
+      "unit_price": 132.54,
+      "amount": 671.7
+     },
+     {
+      "description": "Maintenance contract",
+      "quantity": 10.0,
+      "unit_price": 50.35,
+      "amount": 503.5
+     }
+    ],
+    "tax_rate": 0.15,
+    "expected_issues": [
+     "LINE_ITEM_MISMATCH"
+    ]
+   },
+   {
+    "invoice_number": "INV-2024-0041",
+    "invoice_date": "2024-11-26",
+    "supplier_name": "Harbor Light Foods",
+    "customer_name": "Stark Manufacturing",
+    "subtotal": 1898.83,
+    "tax": 189.88,
+    "total": 2088.71,
+    "currency": "EUR",
+    "line_items": [
+     {
+      "description": "Office chair",
+      "quantity": 9.0,
+      "unit_price": 64.02,
+      "amount": 576.18
+     },
+     {
+      "description": "Network cable 10m",
+      "quantity": 7.0,
+      "unit_price": 177.05,
+      "amount": 1239.35
+     },
+     {
+      "description": "Safety gloves",
+      "quantity": 5.0,
+      "unit_price": 16.66,
+      "amount": 83.3
+     }
+    ],
+    "tax_rate": 0.1,
+    "expected_issues": []
+   },
+   {
+    "invoice_number": "INV-2025-0042",
+    "invoice_date": null,
+    "supplier_name": "Kestrel Components GmbH",
+    "customer_name": "Stark Manufacturing",
+    "subtotal": 5133.33,
+    "tax": 256.67,
+    "total": 5390.0,
+    "currency": "GBP",
+    "line_items": [
+     {
+      "description": "Safety gloves",
+      "quantity": 12.0,
+      "unit_price": 106.88,
+      "amount": 1282.56
+     },
+     {
+      "description": "Office chair",
+      "quantity": 11.0,
+      "unit_price": 100.9,
+      "amount": 1109.9
+     },
+     {
+      "description": "Steel bracket",
+      "quantity": 1.0,
+      "unit_price": 199.87,
+      "amount": 199.87
+     },
+     {
+      "description": "Consulting hours",
+      "quantity": 12.0,
+      "unit_price": 211.75,
+      "amount": 2541.0
+     }
+    ],
+    "tax_rate": 0.05,
+    "expected_issues": [
+     "MISSING_FIELD"
+    ]
+   }
+  ],
+  "expect_fail": false,
+  "quality": null
+ },
+ {
+  "file": "ledger_02.csv",
+  "kind": "ledger_csv",
+  "invoices": [
+   {
+    "invoice_number": null,
+    "invoice_date": "2023-04-13",
+    "supplier_name": "Maple & Oak Furniture Co",
+    "customer_name": "Globex Corporation",
+    "subtotal": 1561.88,
+    "tax": 312.38,
+    "total": 1874.26,
+    "currency": "USD",
+    "line_items": [
+     {
+      "description": "Packing tape roll",
+      "quantity": 10.0,
+      "unit_price": 49.27,
+      "amount": 492.7
+     },
+     {
+      "description": "Printer toner cartridge",
+      "quantity": 4.0,
+      "unit_price": 122.81,
+      "amount": 491.24
+     },
+     {
+      "description": "Shipping and handling",
+      "quantity": 11.0,
+      "unit_price": 16.94,
+      "amount": 186.34
+     },
+     {
+      "description": "Office chair",
+      "quantity": 10.0,
+      "unit_price": 39.16,
+      "amount": 391.6
+     }
+    ],
+    "tax_rate": 0.2,
+    "expected_issues": [
+     "MISSING_FIELD"
+    ]
+   },
+   {
+    "invoice_number": "INV-2024-0044",
+    "invoice_date": "2024-03-16",
+    "supplier_name": "Bluepeak Logistics Inc",
+    "customer_name": "Wayne Enterprises",
+    "subtotal": 6605.73,
+    "tax": 990.86,
+    "total": 7596.59,
+    "currency": "USD",
+    "line_items": [
+     {
+      "description": "Office chair",
+      "quantity": 6.0,
+      "unit_price": 50.1,
+      "amount": 300.6
+     },
+     {
+      "description": "Consulting hours",
+      "quantity": 11.0,
+      "unit_price": 234.16,
+      "amount": 2575.76
+     },
+     {
+      "description": "Printer toner cartridge",
+      "quantity": 12.0,
+      "unit_price": 118.5,
+      "amount": 1422.0
+     },
+     {
+      "description": "Shipping and handling",
+      "quantity": 5.0,
+      "unit_price": 167.11,
+      "amount": 835.55
+     },
+     {
+      "description": "Cloud hosting (monthly)",
+      "quantity": 7.0,
+      "unit_price": 210.26,
+      "amount": 1471.82
+     }
+    ],
+    "tax_rate": 0.15,
+    "expected_issues": []
+   },
+   {
+    "invoice_number": "INV-2025-0045",
+    "invoice_date": "2025-08-13",
+    "supplier_name": "Kestrel Components GmbH",
+    "customer_name": "Acme Industrial Group",
+    "subtotal": 3868.36,
+    "tax": 580.25,
+    "total": 4448.61,
+    "currency": "EUR",
+    "line_items": [
+     {
+      "description": "Printer toner cartridge",
+      "quantity": 5.0,
+      "unit_price": 206.04,
+      "amount": 1030.2
+     },
+     {
+      "description": "Network cable 10m",
+      "quantity": 7.0,
+      "unit_price": 24.68,
+      "amount": 172.76
+     },
+     {
+      "description": "Safety gloves",
+      "quantity": 12.0,
+      "unit_price": 119.95,
+      "amount": 1439.4
+     },
+     {
+      "description": "LED panel light",
+      "quantity": 6.0,
+      "unit_price": 136.76,
+      "amount": 820.56
+     },
+     {
+      "description": "Consulting hours",
+      "quantity": 8.0,
+      "unit_price": 50.68,
+      "amount": 405.44
+     }
+    ],
+    "tax_rate": 0.15,
+    "expected_issues": []
+   },
+   {
+    "invoice_number": "INV-2024-0046",
+    "invoice_date": "2024-05-23",
+    "supplier_name": "Harbor Light Foods",
+    "customer_name": "Hooli Systems",
+    "subtotal": 288.72,
+    "tax": 43.31,
+    "total": 332.03,
+    "currency": "GBP",
+    "line_items": [
+     {
+      "description": "Office chair",
+      "quantity": 1.0,
+      "unit_price": 66.48,
+      "amount": 66.48
+     },
+     {
+      "description": "Printer toner cartridge",
+      "quantity": 12.0,
+      "unit_price": 18.52,
+      "amount": 222.24
+     }
+    ],
+    "tax_rate": 0.15,
+    "expected_issues": []
+   },
+   {
+    "invoice_number": "INV-2025-0047",
+    "invoice_date": "2023-08-27",
+    "supplier_name": "Harbor Light Foods",
+    "customer_name": "Acme Industrial Group",
+    "subtotal": 2622.56,
+    "tax": 262.26,
+    "total": 2884.82,
+    "currency": "EUR",
+    "line_items": [
+     {
+      "description": "Maintenance contract",
+      "quantity": 11.0,
+      "unit_price": 236.78,
+      "amount": 2604.58
+     },
+     {
+      "description": "Shipping and handling",
+      "quantity": 2.0,
+      "unit_price": 8.99,
+      "amount": 17.98
+     }
+    ],
+    "tax_rate": 0.1,
+    "expected_issues": []
+   },
+   {
+    "invoice_number": null,
+    "invoice_date": "2025-01-28",
+    "supplier_name": "Orion Office Supplies",
+    "customer_name": "Acme Industrial Group",
+    "subtotal": 2849.86,
+    "tax": 142.49,
+    "total": 2992.35,
+    "currency": "USD",
+    "line_items": [
+     {
+      "description": "Cloud hosting (monthly)",
+      "quantity": 6.0,
+      "unit_price": 215.73,
+      "amount": 1294.38
+     },
+     {
+      "description": "Steel bracket",
+      "quantity": 8.0,
+      "unit_price": 92.38,
+      "amount": 739.04
+     },
+     {
+      "description": "Packing tape roll",
+      "quantity": 10.0,
+      "unit_price": 22.52,
+      "amount": 225.2
+     },
+     {
+      "description": "Maintenance contract",
+      "quantity": 4.0,
+      "unit_price": 99.75,
+      "amount": 399.0
+     },
+     {
+      "description": "Safety gloves",
+      "quantity": 3.0,
+      "unit_price": 64.08,
+      "amount": 192.24
+     }
+    ],
+    "tax_rate": 0.05,
+    "expected_issues": [
+     "MISSING_FIELD"
+    ]
+   }
+  ],
+  "expect_fail": false,
+  "quality": null
+ },
+ {
+  "file": "ledger_03.csv",
+  "kind": "ledger_csv",
+  "invoices": [
+   {
+    "invoice_number": "INV-2025-0049",
+    "invoice_date": "2025-09-16",
+    "supplier_name": "Harbor Light Foods",
+    "customer_name": "Wayne Enterprises",
+    "subtotal": 4800.66,
+    "tax": 480.07,
+    "total": 5280.73,
+    "currency": "USD",
+    "line_items": [
+     {
+      "description": "Shipping and handling",
+      "quantity": 7.0,
+      "unit_price": 126.12,
+      "amount": 882.84
+     },
+     {
+      "description": "Printer toner cartridge",
+      "quantity": 12.0,
+      "unit_price": 243.11,
+      "amount": 2917.32
+     },
+     {
+      "description": "Safety gloves",
+      "quantity": 3.0,
+      "unit_price": 60.85,
+      "amount": 182.55
+     },
+     {
+      "description": "Pallet wrap",
+      "quantity": 7.0,
+      "unit_price": 116.85,
+      "amount": 817.95
+     }
+    ],
+    "tax_rate": 0.1,
+    "expected_issues": []
+   },
+   {
+    "invoice_number": null,
+    "invoice_date": "2025-09-20",
+    "supplier_name": "Delta Print Works Ltd",
+    "customer_name": "Globex Corporation",
+    "subtotal": 1055.66,
+    "tax": 105.57,
+    "total": 1161.23,
+    "currency": "EUR",
+    "line_items": [
+     {
+      "description": "Packing tape roll",
+      "quantity": 4.0,
+      "unit_price": 48.88,
+      "amount": 195.52
+     },
+     {
+      "description": "Maintenance contract",
+      "quantity": 4.0,
+      "unit_price": 40.87,
+      "amount": 163.48
+     },
+     {
+      "description": "Safety gloves",
+      "quantity": 10.0,
+      "unit_price": 49.5,
+      "amount": 495.0
+     },
+     {
+      "description": "Office chair",
+      "quantity": 2.0,
+      "unit_price": 100.83,
+      "amount": 201.66
+     }
+    ],
+    "tax_rate": 0.1,
+    "expected_issues": [
+     "MISSING_FIELD"
+    ]
+   },
+   {
+    "invoice_number": "INV-2025-0051",
+    "invoice_date": "2025-01-16",
+    "supplier_name": "Kestrel Components GmbH",
+    "customer_name": "Globex Corporation",
+    "subtotal": 1776.35,
+    "tax": 266.45,
+    "total": 2042.8,
+    "currency": "USD",
+    "line_items": [
+     {
+      "description": "Safety gloves",
+      "quantity": 4.0,
+      "unit_price": 32.45,
+      "amount": 129.8
+     },
+     {
+      "description": "Office chair",
+      "quantity": 4.0,
+      "unit_price": 151.32,
+      "amount": 605.28
+     },
+     {
+      "description": "Consulting hours",
+      "quantity": 10.0,
+      "unit_price": 50.96,
+      "amount": 509.6
+     },
+     {
+      "description": "Steel bracket",
+      "quantity": 2.0,
+      "unit_price": 94.94,
+      "amount": 189.88
+     },
+     {
+      "description": "Packing tape roll",
+      "quantity": 3.0,
+      "unit_price": 113.93,
+      "amount": 341.79
+     }
+    ],
+    "tax_rate": 0.15,
+    "expected_issues": []
+   },
+   {
+    "invoice_number": "INV-2025-0052",
+    "invoice_date": "2025-06-18",
+    "supplier_name": "Bluepeak Logistics Inc",
+    "customer_name": "Stark Manufacturing",
+    "subtotal": 2872.56,
+    "tax": 574.51,
+    "total": 3447.07,
+    "currency": "EUR",
+    "line_items": [
+     {
+      "description": "Steel bracket",
+      "quantity": 1.0,
+      "unit_price": 151.06,
+      "amount": 151.06
+     },
+     {
+      "description": "Safety gloves",
+      "quantity": 11.0,
+      "unit_price": 228.75,
+      "amount": 2516.25
+     },
+     {
+      "description": "Packing tape roll",
+      "quantity": 1.0,
+      "unit_price": 205.25,
+      "amount": 205.25
+     }
+    ],
+    "tax_rate": 0.2,
+    "expected_issues": []
+   },
+   {
+    "invoice_number": "INV-2025-0053",
+    "invoice_date": "2025-10-24",
+    "supplier_name": "Maple & Oak Furniture Co",
+    "customer_name": "Globex Corporation",
+    "subtotal": 5310.22,
+    "tax": 796.53,
+    "total": 6106.75,
+    "currency": "GBP",
+    "line_items": [
+     {
+      "description": "Printer toner cartridge",
+      "quantity": 11.0,
+      "unit_price": 134.9,
+      "amount": 1483.9
+     },
+     {
+      "description": "LED panel light",
+      "quantity": 11.0,
+      "unit_price": 43.43,
+      "amount": 477.73
+     },
+     {
+      "description": "Maintenance contract",
+      "quantity": 12.0,
+      "unit_price": 69.98,
+      "amount": 839.76
+     },
+     {
+      "description": "Pallet wrap",
+      "quantity": 5.0,
+      "unit_price": 167.95,
+      "amount": 839.75
+     },
+     {
+      "description": "Cloud hosting (monthly)",
+      "quantity": 7.0,
+      "unit_price": 238.44,
+      "amount": 1669.08
+     }
+    ],
+    "tax_rate": 0.15,
+    "expected_issues": []
+   },
+   {
+    "invoice_number": "INV-2024-0054",
+    "invoice_date": "2023-10-24",
+    "supplier_name": "Orion Office Supplies",
+    "customer_name": "Hooli Systems",
+    "subtotal": 1475.26,
+    "tax": 295.05,
+    "total": 1770.31,
+    "currency": "USD",
+    "line_items": [
+     {
+      "description": "Maintenance contract",
+      "quantity": 3.0,
+      "unit_price": 107.67,
+      "amount": 323.01
+     },
+     {
+      "description": "LED panel light",
+      "quantity": 2.0,
+      "unit_price": 103.34,
+      "amount": 206.68
+     },
+     {
+      "description": "Safety gloves",
+      "quantity": 6.0,
+      "unit_price": 116.84,
+      "amount": 701.04
+     },
+     {
+      "description": "Steel bracket",
+      "quantity": 3.0,
+      "unit_price": 35.1,
+      "amount": 105.3
+     },
+     {
+      "description": "Pallet wrap",
+      "quantity": 1.0,
+      "unit_price": 139.23,
+      "amount": 139.23
+     }
+    ],
+    "tax_rate": 0.2,
+    "expected_issues": []
+   }
+  ],
+  "expect_fail": false,
+  "quality": null
+ },
+ {
+  "file": "dup_a.pdf",
+  "kind": "digital_pdf",
+  "invoices": [
+   {
+    "invoice_number": "INV-2024-0055",
+    "invoice_date": "2024-01-25",
+    "supplier_name": "Orion Office Supplies",
+    "customer_name": "Stark Manufacturing",
+    "subtotal": 749.52,
+    "tax": 149.9,
+    "total": 899.42,
+    "currency": "EUR",
+    "line_items": [
+     {
+      "description": "Network cable 10m",
+      "quantity": 2.0,
+      "unit_price": 97.78,
+      "amount": 195.56
+     },
+     {
+      "description": "Cloud hosting (monthly)",
+      "quantity": 4.0,
+      "unit_price": 77.5,
+      "amount": 310.0
+     },
+     {
+      "description": "Printer toner cartridge",
+      "quantity": 1.0,
+      "unit_price": 243.96,
+      "amount": 243.96
+     }
+    ],
+    "tax_rate": 0.2,
+    "expected_issues": []
+   }
+  ],
+  "expect_fail": false,
+  "quality": null
+ },
+ {
+  "file": "dup_b.pdf",
+  "kind": "digital_pdf",
+  "invoices": [
+   {
+    "invoice_number": "INV-2024-0055",
+    "invoice_date": "2024-01-25",
+    "supplier_name": "Orion Office Supplies",
+    "customer_name": "Stark Manufacturing",
+    "subtotal": 749.52,
+    "tax": 149.9,
+    "total": 899.42,
+    "currency": "EUR",
+    "line_items": [
+     {
+      "description": "Network cable 10m",
+      "quantity": 2.0,
+      "unit_price": 97.78,
+      "amount": 195.56
+     },
+     {
+      "description": "Cloud hosting (monthly)",
+      "quantity": 4.0,
+      "unit_price": 77.5,
+      "amount": 310.0
+     },
+     {
+      "description": "Printer toner cartridge",
+      "quantity": 1.0,
+      "unit_price": 243.96,
+      "amount": 243.96
+     }
+    ],
+    "tax_rate": 0.2,
+    "expected_issues": [
+     "DUPLICATE_INVOICE"
+    ]
+   }
+  ],
+  "expect_fail": false,
+  "quality": null
+ },
+ {
+  "file": "corrupt_truncated.pdf",
+  "kind": "corrupted",
+  "invoices": [],
+  "expect_fail": true,
+  "quality": null
+ },
+ {
+  "file": "corrupt_garbage.pdf",
+  "kind": "corrupted",
+  "invoices": [],
+  "expect_fail": true,
+  "quality": null
+ },
+ {
+  "file": "corrupt_empty.png",
+  "kind": "corrupted",
+  "invoices": [],
+  "expect_fail": true,
+  "quality": null
+ },
+ {
+  "file": "corrupt_bad.xlsx",
+  "kind": "corrupted",
+  "invoices": [],
+  "expect_fail": true,
+  "quality": null
+ }
+]

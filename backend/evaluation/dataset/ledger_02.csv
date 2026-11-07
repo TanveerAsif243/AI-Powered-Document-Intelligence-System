@@ -1,0 +1,7 @@
+Invoice Number,Invoice Date,Supplier,Customer,Subtotal,Tax,Total,Currency
+,2023-04-13,Maple & Oak Furniture Co,Globex Corporation,1561.88,312.38,1874.26,USD
+INV-2024-0044,2024-03-16,Bluepeak Logistics Inc,Wayne Enterprises,6605.73,990.86,7596.59,USD
+INV-2025-0045,2025-08-13,Kestrel Components GmbH,Acme Industrial Group,3868.36,580.25,4448.61,EUR
+INV-2024-0046,2024-05-23,Harbor Light Foods,Hooli Systems,288.72,43.31,332.03,GBP
+INV-2025-0047,2023-08-27,Harbor Light Foods,Acme Industrial Group,2622.56,262.26,2884.82,EUR
+,2025-01-28,Orion Office Supplies,Acme Industrial Group,2849.86,142.49,2992.35,USD

@@ -1,0 +1,247 @@
+{
+ "dataset": {
+  "files": 31,
+  "labelled_invoices": 56,
+  "expected_corrupt_files": 4,
+  "llm_used": false
+ },
+ "field_accuracy_pct": {
+  "invoice_number": 21.43,
+  "invoice_date": 21.43,
+  "supplier_name": 21.43,
+  "customer_name": 21.43,
+  "subtotal": 21.43,
+  "tax": 21.43,
+  "total": 21.43,
+  "currency": 21.43
+ },
+ "overall_field_accuracy_pct": 21.43,
+ "invoice_exact_match_pct": 21.43,
+ "line_item_amount_f1_pct": 69.33,
+ "document_success_rate_pct": 7.41,
+ "document_failure_rate_pct": 92.59,
+ "corrupt_files_rejected_cleanly_pct": 100.0,
+ "processing_seconds": {
+  "mean": 0.04,
+  "p50": 0.01,
+  "p95": 0.13,
+  "total": 1.3
+ },
+ "seconds_by_kind_mean": {
+  "digital_pdf": 0.01,
+  "digital_pdf_multi": 0.01,
+  "scan_png": 0.09,
+  "scan_pdf": 0.03,
+  "scan_jpg": 0.08,
+  "scan_tiff": 0.4,
+  "ledger_xlsx": 0.05,
+  "ledger_csv": 0.08,
+  "corrupted": 0.0
+ },
+ "accuracy_by_kind_pct": {
+  "digital_pdf": 0.0,
+  "digital_pdf_multi": 0.0,
+  "scan_png": 0.0,
+  "scan_pdf": 0.0,
+  "scan_jpg": 0.0,
+  "scan_tiff": 0.0,
+  "ledger_xlsx": 0.0,
+  "ledger_csv": 100.0
+ },
+ "validation": {
+  "flag_precision_pct": 100.0,
+  "flag_recall_pct": 100.0,
+  "true_pos": 3,
+  "false_pos": 0,
+  "false_neg": 0,
+  "true_neg": 9,
+  "injected_error_code_detected_pct": 100.0,
+  "wrong_extractions": 0,
+  "wrong_but_not_flagged": 0,
+  "wrong_extractions_flagged_pct": null
+ },
+ "per_file": [
+  {
+   "file": "digital_00.pdf",
+   "status": "FAILED",
+   "error": "CorruptedFileError: Unreadable PDF: No module named 'pypdf'",
+   "seconds": 0.0
+  },
+  {
+   "file": "digital_01.pdf",
+   "status": "FAILED",
+   "error": "CorruptedFileError: Unreadable PDF: No module named 'pypdf'",
+   "seconds": 0.01
+  },
+  {
+   "file": "digital_02.pdf",
+   "status": "FAILED",
+   "error": "CorruptedFileError: Unreadable PDF: No module named 'pypdf'",
+   "seconds": 0.02
+  },
+  {
+   "file": "digital_03.pdf",
+   "status": "FAILED",
+   "error": "CorruptedFileError: Unreadable PDF: No module named 'pypdf'",
+   "seconds": 0.01
+  },
+  {
+   "file": "digital_04.pdf",
+   "status": "FAILED",
+   "error": "CorruptedFileError: Unreadable PDF: No module named 'pypdf'",
+   "seconds": 0.0
+  },
+  {
+   "file": "digital_05.pdf",
+   "status": "FAILED",
+   "error": "CorruptedFileError: Unreadable PDF: No module named 'pypdf'",
+   "seconds": 0.01
+  },
+  {
+   "file": "digital_06.pdf",
+   "status": "FAILED",
+   "error": "CorruptedFileError: Unreadable PDF: No module named 'pypdf'",
+   "seconds": 0.0
+  },
+  {
+   "file": "digital_07.pdf",
+   "status": "FAILED",
+   "error": "CorruptedFileError: Unreadable PDF: No module named 'pypdf'",
+   "seconds": 0.01
+  },
+  {
+   "file": "digital_multi_00.pdf",
+   "status": "FAILED",
+   "error": "CorruptedFileError: Unreadable PDF: No module named 'pypdf'",
+   "seconds": 0.01
+  },
+  {
+   "file": "digital_multi_01.pdf",
+   "status": "FAILED",
+   "error": "CorruptedFileError: Unreadable PDF: No module named 'pypdf'",
+   "seconds": 0.0
+  },
+  {
+   "file": "digital_multi_02.pdf",
+   "status": "FAILED",
+   "error": "CorruptedFileError: Unreadable PDF: No module named 'pypdf'",
+   "seconds": 0.01
+  },
+  {
+   "file": "scan_clean_00.png",
+   "status": "FAILED",
+   "error": "OCRUnavailableError: pytesseract is not installed",
+   "seconds": 0.13
+  },
+  {
+   "file": "scan_clean_01.pdf",
+   "status": "FAILED",
+   "error": "CorruptedFileError: Unreadable PDF: No module named 'pypdf'",
+   "seconds": 0.02
+  },
+  {
+   "file": "scan_clean_02.jpg",
+   "status": "FAILED",
+   "error": "OCRUnavailableError: pytesseract is not installed",
+   "seconds": 0.05
+  },
+  {
+   "file": "scan_noisy_03.png",
+   "status": "FAILED",
+   "error": "OCRUnavailableError: pytesseract is not installed",
+   "seconds": 0.04
+  },
+  {
+   "file": "scan_noisy_04.tiff",
+   "status": "FAILED",
+   "error": "OCRUnavailableError: pytesseract is not installed",
+   "seconds": 0.4
+  },
+  {
+   "file": "scan_noisy_05.pdf",
+   "status": "FAILED",
+   "error": "CorruptedFileError: Unreadable PDF: No module named 'pypdf'",
+   "seconds": 0.04
+  },
+  {
+   "file": "scan_noisy_06.jpg",
+   "status": "FAILED",
+   "error": "OCRUnavailableError: pytesseract is not installed",
+   "seconds": 0.09
+  },
+  {
+   "file": "scan_poor_07.png",
+   "status": "FAILED",
+   "error": "OCRUnavailableError: pytesseract is not installed",
+   "seconds": 0.1
+  },
+  {
+   "file": "scan_poor_08.jpg",
+   "status": "FAILED",
+   "error": "OCRUnavailableError: pytesseract is not installed",
+   "seconds": 0.09
+  },
+  {
+   "file": "scan_poor_09.pdf",
+   "status": "FAILED",
+   "error": "CorruptedFileError: Unreadable PDF: No module named 'pypdf'",
+   "seconds": 0.02
+  },
+  {
+   "file": "ledger_00.xlsx",
+   "status": "FAILED",
+   "error": "UnsupportedFileError: Missing spreadsheet engine: `Import openpyxl` failed.  Use pip or conda to install the openpyxl package.",
+   "seconds": 0.09
+  },
+  {
+   "file": "ledger_01.xlsx",
+   "status": "FAILED",
+   "error": "UnsupportedFileError: Missing spreadsheet engine: `Import openpyxl` failed.  Use pip or conda to install the openpyxl package.",
+   "seconds": 0.0
+  },
+  {
+   "file": "ledger_02.csv",
+   "status": "ok",
+   "invoices": 6,
+   "seconds": 0.11
+  },
+  {
+   "file": "ledger_03.csv",
+   "status": "ok",
+   "invoices": 6,
+   "seconds": 0.04
+  },
+  {
+   "file": "dup_a.pdf",
+   "status": "FAILED",
+   "error": "CorruptedFileError: Unreadable PDF: No module named 'pypdf'",
+   "seconds": 0.0
+  },
+  {
+   "file": "dup_b.pdf",
+   "status": "FAILED",
+   "error": "CorruptedFileError: Unreadable PDF: No module named 'pypdf'",
+   "seconds": 0.0
+  },
+  {
+   "file": "corrupt_truncated.pdf",
+   "status": "failed_as_expected",
+   "seconds": 0.0
+  },
+  {
+   "file": "corrupt_garbage.pdf",
+   "status": "failed_as_expected",
+   "seconds": 0.0
+  },
+  {
+   "file": "corrupt_empty.png",
+   "status": "failed_as_expected",
+   "seconds": 0.0
+  },
+  {
+   "file": "corrupt_bad.xlsx",
+   "status": "failed_as_expected",
+   "seconds": 0.0
+  }
+ ]
+}
